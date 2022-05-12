@@ -40,8 +40,11 @@ priorPURCHASEbut no PURCHASEs over 90 days old.
 
 For accounts with FRAUD_HISTORY, GOOD_HISTORY, and UNCONFIRMED_HISTORY, the status
 also contains a count of relevant events.
+ 
 ● FRAUD_HISTORY - count of FRAUD_REPORTs
+ 
 ● GOOD_HISTORY - count of priorsPURCHASE over 90 days old
+ 
 ● UNCONFIRMED_HISTORY- count of prior purchases.
   
 ## Documentation
