@@ -37,6 +37,7 @@ There are four possible values for the status of the customer account history:
 PURCHASEis more than 90 days old.
 4. UNCONFIRMED_HISTORY - customer account has no FRAUD_REPORTs and at least one
 priorPURCHASEbut no PURCHASEs over 90 days old.
+
 For accounts with FRAUD_HISTORY, GOOD_HISTORY, and UNCONFIRMED_HISTORY, the status
 also contains a count of relevant events.
 ● FRAUD_HISTORY - count of FRAUD_REPORTs
